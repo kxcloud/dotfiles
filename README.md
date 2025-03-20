@@ -1,6 +1,17 @@
 # dotfiles
 ZSH, Tmux, Vim and ssh setup on both local/remote machines.
 
+## kxcloud's version
+Diffs:
+* Removes unused aliases, iterm
+* Uses different p10k config (that doesn't require custom fonts)
+
+Notes to self: 
+* `install.sh` - change this if want to add linux tools/apps
+* `deploy.sh` - puts the files in the right place
+* run `p10k configure` to set up (don't change zshrc.sh though)
+* todo: change alias
+
 ## Installation
 
 ### Step 1
