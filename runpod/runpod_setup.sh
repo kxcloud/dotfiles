@@ -24,3 +24,5 @@ cd ..
 
 # 4) Setup github
 git config --global user.name "kxcloud"
+echo -n "Enter email: " && read email
+git config --global user.email "$email"
