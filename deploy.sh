@@ -51,4 +51,5 @@ if [ -n "${ALIASES+x}" ]; then
     done
 fi
 
+chsh -s $(which zsh)
 zsh
